@@ -15,8 +15,7 @@ const assetsToCopy = [
   'sitemap.xml',
   'rss.xml',
   'robots.txt',
-  'ads.txt',
-  'CNAME'
+  'ads.txt'
 ];
 
 assetsToCopy.forEach(file => {
