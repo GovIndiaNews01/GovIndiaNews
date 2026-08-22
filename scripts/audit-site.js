@@ -42,6 +42,17 @@ if (fs.existsSync(path.join(ROOT_DIR, 'sitemap.xml'))) {
   });
 }
 
+// Check ads.txt
+const adsTxtPath = path.join(ROOT_DIR, 'ads.txt');
+if (!fs.existsSync(adsTxtPath)) {
+  issues.push({ file: 'ads.txt', type: 'MissingFile', msg: 'ads.txt does not exist at root' });
+} else {
+  const adsTxtContent = fs.readFileSync(adsTxtPath, 'utf8');
+  if (!adsTxtContent.includes('google.com, pub-9246342607636743, DIRECT, f08c47fec0942fa0')) {
+    issues.push({ file: 'ads.txt', type: 'InvalidContent', msg: 'ads.txt is missing pub-9246342607636743 directive' });
+  }
+}
+
 // 2. HTML FILE VALIDATION
 function checkHtmlFile(file) {
   const content = fs.readFileSync(path.join(ROOT_DIR, file), 'utf8');
@@ -70,6 +81,11 @@ function checkHtmlFile(file) {
   const canonicalMatch = content.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']\s*\/?>/i);
   if (!canonicalMatch && file !== '404.html') {
     issues.push({ file, type: 'Canonical', msg: 'Missing canonical link' });
+  }
+
+// Check AdSense Script
+  if (!content.includes('ca-pub-9246342607636743')) {
+    issues.push({ file, type: 'AdSense', msg: 'Missing AdSense script tag (ca-pub-9246342607636743)' });
   }
 
   // Check Shell Components

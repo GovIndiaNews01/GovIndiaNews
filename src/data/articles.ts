@@ -32,6 +32,37 @@ export interface ArticleData {
 
 export const SITE_ARTICLES: ArticleData[] = [
   {
+    slug: "best-nri-fixed-deposit-rates-2026-nre-nro-fcnr",
+    url: "best-nri-fixed-deposit-rates-2026-nre-nro-fcnr.html",
+    canonicalUrl: "https://www.govindianews.com/best-nri-fixed-deposit-rates-2026-nre-nro-fcnr.html",
+    title: "Best NRI Fixed Deposit Rates 2026: NRE vs NRO vs FCNR (Interest Rates, RBI Rules & Tax Exemption Guide) — GovIndiaNews",
+    h1: "Best NRI Fixed Deposit Rates 2026: NRE vs NRO vs FCNR (Interest Rates, RBI Rules & Tax Exemption Guide)",
+    metaTitle: "Best NRI Fixed Deposit Rates 2026: NRE vs NRO vs FCNR Guide — GovIndiaNews",
+    metaDescription: "Comprehensive 2026 masterclass guide on NRI Fixed Deposits: NRE vs NRO vs FCNR comparison, interest rates for HDFC, ICICI, SBI, Axis, Kotak & Yes Bank, RBI FEMA rules, tax exemptions, DTAA benefits, and documentation.",
+    category: "Global Finance",
+    categorySlug: "global-finance",
+    categoryUrl: "global-finance.html",
+    publishedDate: "22 August 2026",
+    publishedIso: "2026-08-22T00:00:00+05:30",
+    modifiedDate: "22 August 2026",
+    modifiedIso: "2026-08-22T00:00:00+05:30",
+    image: "https://i.ibb.co/6RSgbG6P/5abd6fd7-a793-4a33-ab76-0fbdcc1e0e9a-1.webp",
+    canonicalImage: "https://i.ibb.co/6RSgbG6P/5abd6fd7-a793-4a33-ab76-0fbdcc1e0e9a-1.webp",
+    imageAlt: "Best NRI Fixed Deposit Rates 2026 NRE vs NRO vs FCNR Comparison Infographic",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "en",
+    readingTime: "25 min read",
+    keywords: ["nri fixed deposit rates 2026", "nre vs nro vs fcnr", "nre fd rates 2026", "fcnr usd interest rates", "nro fd tax exemption", "rbi fema rules nri fd", "hdfc nri fd rates", "icici nri fd", "sbi nre deposit", "dtaa nro tds 10 percent", "fatca fbar nri deposit"],
+    snippet: "Exhaustive 2026 master guide comparing NRE, NRO, and FCNR fixed deposits: interest rates across top Indian banks (SBI, HDFC, ICICI, Axis, Kotak, Yes Bank), RBI FEMA rules, tax exemption mechanics, DTAA tax optimization, and step-by-step account opening."
+  },
+  {
     slug: "nri-property-investment-home-loan-guide-2026",
     url: "nri-property-investment-home-loan-guide-2026.html",
     canonicalUrl: "https://www.govindianews.com/nri-property-investment-home-loan-guide-2026.html",

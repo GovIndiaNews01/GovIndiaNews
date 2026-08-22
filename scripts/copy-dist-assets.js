@@ -14,7 +14,9 @@ const assetsToCopy = [
   'favicon.svg',
   'sitemap.xml',
   'rss.xml',
-  'robots.txt'
+  'robots.txt',
+  'ads.txt',
+  'CNAME'
 ];
 
 assetsToCopy.forEach(file => {
