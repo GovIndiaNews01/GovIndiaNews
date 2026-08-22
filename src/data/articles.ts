@@ -1,0 +1,344 @@
+export interface ArticleData {
+  slug: string;
+  url: string;
+  canonicalUrl: string;
+  title: string;
+  h1: string;
+  metaTitle: string;
+  metaDescription: string;
+  category: 'Government Schemes' | 'Government Jobs' | 'Global Finance';
+  categorySlug: 'government-schemes' | 'government-jobs' | 'global-finance';
+  categoryUrl: string;
+  publishedDate: string;
+  publishedIso: string;
+  modifiedDate: string;
+  modifiedIso: string;
+  image: string;
+  canonicalImage: string;
+  imageAlt: string;
+  imageWidth: number;
+  imageHeight: number;
+  author: {
+    name: string;
+    jobTitle: string;
+    url: string;
+    email: string;
+  };
+  language: string;
+  readingTime: string;
+  keywords: string[];
+  snippet: string;
+}
+
+export const SITE_ARTICLES: ArticleData[] = [
+  {
+    slug: "nri-property-investment-home-loan-guide-2026",
+    url: "nri-property-investment-home-loan-guide-2026.html",
+    canonicalUrl: "https://www.govindianews.com/nri-property-investment-home-loan-guide-2026.html",
+    title: "NRI Property Investment & Home Loan Guide 2026: RBI FEMA Rules, PoA, TDS & Repatriation Matrix — GovIndiaNews Global Finance Desk",
+    h1: "NRI Property Investment & Home Loan Guide 2026: RBI FEMA Rules, PoA, TDS & Repatriation Matrix",
+    metaTitle: "NRI Property Investment & Home Loan Guide 2026: RBI FEMA Rules, PoA, TDS & Repatriation Matrix — GovIndiaNews Global Finance Desk",
+    metaDescription: "Exhaustive 2026 regulatory & legal guide for Non-Resident Indians (NRIs) and Overseas Citizens of India (OCIs) investing in Indian real estate. Covers RBI Master Directions, FEMA compliances, NRE/NRO/FCNR account fund flows, Power of Attorney registration, Section 195 TDS rates, NRI home loan documentation, 1 Million USD repatriation matrix, and tax optimization.",
+    category: "Global Finance",
+    categorySlug: "global-finance",
+    categoryUrl: "global-finance.html",
+    publishedDate: "21 August 2026",
+    publishedIso: "2026-08-21T00:00:00+05:30",
+    modifiedDate: "21 August 2026",
+    modifiedIso: "2026-08-21T00:00:00+05:30",
+    image: "https://i.ibb.co/6RSgbG6P/5abd6fd7-a793-4a33-ab76-0fbdcc1e0e9a-1.webp",
+    canonicalImage: "https://i.ibb.co/6RSgbG6P/5abd6fd7-a793-4a33-ab76-0fbdcc1e0e9a-1.webp",
+    imageAlt: "NRI Property Investment & Home Loan Guide 2026 Infographic Banner",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "en",
+    readingTime: "18 min read",
+    keywords: ["nri property", "nri home loan", "fema rules 2026", "rbi master direction", "poa registration", "section 195 tds", "nro nre repatriation", "form 15ca 15cb", "oci property investment"],
+    snippet: "Complete legal and financial guide for NRIs and OCIs purchasing residential or commercial property in India under RBI FEMA Master Directions, NRE/NRO loan rules, and 1M USD repatriation matrix."
+  },
+  {
+    slug: "how-to-invest-in-us-stocks-from-india-2026",
+    url: "how-to-invest-in-us-stocks-from-india-2026.html",
+    canonicalUrl: "https://www.govindianews.com/how-to-invest-in-us-stocks-from-india-2026.html",
+    title: "How to Invest in US Stocks from India in 2026: LRS $250k Limit, GIFT City IFSC, Tax & Broker Fee Guide — GovIndiaNews",
+    h1: "How to Invest in US Stocks from India in 2026: LRS $250k Limit, GIFT City IFSC, Tax & Broker Fee Guide",
+    metaTitle: "How to Invest in US Stocks from India in 2026: LRS $250k Limit, GIFT City IFSC, Tax & Broker Fee Guide — GovIndiaNews",
+    metaDescription: "Complete guide on investing in US stocks (NYSE, NASDAQ) from India in 2026: RBI Liberalised Remittance Scheme ($250,000 limit), GIFT City IFSC (NSE IX) 0% capital gains route, broker comparison, 20% TCS rules, W-8BEN form, and ITR Schedule FA disclosure requirements.",
+    category: "Global Finance",
+    categorySlug: "global-finance",
+    categoryUrl: "global-finance.html",
+    publishedDate: "21 August 2026",
+    publishedIso: "2026-08-21T00:00:00+05:30",
+    modifiedDate: "21 August 2026",
+    modifiedIso: "2026-08-21T00:00:00+05:30",
+    image: "https://i.ibb.co/bjX36KJk/2ded5cc8-e6ea-4a15-af53-1a865b92861a-1.webp",
+    canonicalImage: "https://i.ibb.co/bjX36KJk/2ded5cc8-e6ea-4a15-af53-1a865b92861a-1.webp",
+    imageAlt: "How to Invest in US Stocks from India 2026 Guide Banner",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "en",
+    readingTime: "15 min read",
+    keywords: ["us stocks", "lrs limit", "gift city", "ifsc", "nse ix", "interactive brokers", "icici direct ifsc", "apple", "microsoft", "nvidia", "schedule fa", "tcs 2026", "w-8ben", "capital gains"],
+    snippet: "Complete roadmap on investing in NYSE and NASDAQ stocks from India: RBI LRS $250,000 limit, GIFT City IFSC route, W-8BEN tax treaty rules, and ITR Schedule FA compliance."
+  },
+  {
+    slug: "international-estate-tax-planning-2026",
+    url: "international-estate-tax-planning-2026.html",
+    canonicalUrl: "https://www.govindianews.com/international-estate-tax-planning-2026.html",
+    title: "International Estate Tax Planning & Cross-Border Asset Protection 2026 — GovIndiaNews Global Finance Desk",
+    h1: "International Estate Tax Planning & Cross-Border Asset Protection 2026",
+    metaTitle: "International Estate Tax Planning & Cross-Border Asset Protection 2026 — GovIndiaNews Global Finance Desk",
+    metaDescription: "Comprehensive 2026 guide on international estate tax planning, cross-border asset protection, multi-jurisdictional trusts, QDOTs, FATCA, CRS, DTAA exemptions, and 2026 US estate tax exclusions ($13.61M).",
+    category: "Global Finance",
+    categorySlug: "global-finance",
+    categoryUrl: "global-finance.html",
+    publishedDate: "21 August 2026",
+    publishedIso: "2026-08-21T00:00:00+05:30",
+    modifiedDate: "21 August 2026",
+    modifiedIso: "2026-08-21T00:00:00+05:30",
+    image: "https://i.ibb.co/bjX36KJk/2ded5cc8-e6ea-4a15-af53-1a865b92861a-1.webp",
+    canonicalImage: "https://i.ibb.co/bjX36KJk/2ded5cc8-e6ea-4a15-af53-1a865b92861a-1.webp",
+    imageAlt: "International Estate Tax Planning and Cross-Border Asset Protection 2026 Banner",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "en",
+    readingTime: "16 min read",
+    keywords: ["international estate tax", "cross-border asset protection", "multi-jurisdictional trust", "qdot", "fatca", "crs", "dtaa", "dynasty trust", "foreign trust reporting"],
+    snippet: "A technical blueprint on international estate tax mitigation, multi-jurisdictional trusts, QDOT rules under IRC §2056A, FATCA/CRS compliance, and offshore asset protection."
+  },
+  {
+    slug: "startup-india-seed-fund-2026",
+    url: "startup-india-seed-fund-2026.html",
+    canonicalUrl: "https://www.govindianews.com/startup-india-seed-fund-2026.html",
+    title: "Startup India Seed Fund 2026: अपने नए बिजनेस के लिए पाएं ₹20 लाख Grant व ₹50 लाख Seed Loan — DPIIT Portal Guide — GovIndiaNews",
+    h1: "Startup India Seed Fund 2026: अपने नए बिजनेस के लिए पाएं ₹20 लाख Grant व ₹50 लाख Seed Loan — DPIIT Portal Step-by-Step Guide",
+    metaTitle: "Startup India Seed Fund 2026: अपने नए बिजनेस के लिए पाएं ₹20 लाख Grant व ₹50 लाख Seed Loan — DPIIT Portal Guide — GovIndiaNews",
+    metaDescription: "Startup India Seed Fund Scheme (SISFS 2026) की संपूर्ण गाइड: DPIIT पोर्टल रजिस्ट्रेशन, ₹20 लाख ग्रांट व ₹50 लाख लोन की पात्रता नियम, इंक्यूबेटर चयन, पिच डेक फॉर्मेट, आवेदन प्रक्रिया और लाइव कैलकुलेटर।",
+    category: "Government Schemes",
+    categorySlug: "government-schemes",
+    categoryUrl: "government-schemes.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/prxQZrjB/a6734148-7f4b-4747-960c-c1d91ad0dac8.png",
+    canonicalImage: "https://i.ibb.co/prxQZrjB/a6734148-7f4b-4747-960c-c1d91ad0dac8.png",
+    imageAlt: "Startup India Seed Fund Scheme 2026 DPIIT Portal Guide Banner",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "12 min read",
+    keywords: ["startup", "seed fund", "sisfs", "dpiit", "grant", "20 lakh", "seed loan", "50 lakh", "startup india", "incubator", "pitch deck", "स्टार्टअप", "सीड फंड", "लोन", "अनुदान"],
+    snippet: "DPIIT स्टार्टअप इंडिया सीड फंड योजना (SISFS 2026) की संपूर्ण गाइड: ₹20 लाख फ्री ग्रांट, ₹50 लाख सीड लोन, पात्रता नियम, 3 इंक्यूबेटर्स चयन, ऑनलाइन आवेदन व लाइव एलिजिबिलिटी कैलकुलेटर।"
+  },
+  {
+    slug: "army-running-time-calculator-1600m-2026",
+    url: "army-running-time-calculator-1600m-2026.html",
+    canonicalUrl: "https://www.govindianews.com/army-running-time-calculator-1600m-2026.html",
+    title: "आर्मी 1600m रनिंग टाइम कैलकुलेटर (2026): अग्निवीर PFT मार्क्स एवं ग्रुप स्टेटस जांचें — GovIndiaNews",
+    h1: "आर्मी 1600m रनिंग टाइम कैलकुलेटर (2026): अग्निवीर PFT मार्क्स एवं ग्रुप स्टेटस जांचें",
+    metaTitle: "आर्मी 1600m रनिंग टाइम कैलकुलेटर (2026): अग्निवीर PFT मार्क्स एवं ग्रुप स्टेटस जांचें — GovIndiaNews",
+    metaDescription: "भारतीय सेना अग्निवीर 1600 मीटर दौड़ समय कैलकुलेटर 2026: PFT अंक (60 / 48), ग्रुप वर्गीकरण (ग्रुप 1 बनाम ग्रुप 2), बीम स्कोर, CPT नियम एवं पेसिंग गाइड।",
+    category: "Government Jobs",
+    categorySlug: "government-jobs",
+    categoryUrl: "government-jobs.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/mCLdtyDp/26-1.webp",
+    canonicalImage: "https://i.ibb.co/mCLdtyDp/26-1.webp",
+    imageAlt: "Indian Army 1600m Running Time Calculator and Agniveer PFT Marks Tool 2026",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "10 min read",
+    keywords: ["army", "running", "1600m", "calculator", "agniveer", "pft", "cpt", "2026", "marks", "running time", "pullups", "beam", "अग्निवीर", "दौड़"],
+    snippet: "भारतीय सेना अग्निवीर भर्ती 2026 के लिए 1600 मीटर दौड़ कैलकुलेटर, ग्रुप 1 व ग्रुप 2 मार्क्स तालिका, बीम/पुल-अप्स स्कोर (40 अंक), नया CPT 2026 नियम और 400m पेसिंग स्प्लिट्स।"
+  },
+  {
+    slug: "mp-police-si-written-exam-2026",
+    url: "mp-police-si-written-exam-2026.html",
+    canonicalUrl: "https://www.govindianews.com/mp-police-si-written-exam-2026.html",
+    title: "MP Police SI Written Exam 2026: क्या 600 अंकों की लिखित परीक्षा में लागू होगा माइनस मार्किंग? — सम्पूर्ण परीक्षा पैटर्न, सिलेबस व रणनीति",
+    h1: "MP Police SI Written Exam 2026: क्या 600 अंकों की लिखित परीक्षा में लागू होगा माइनस मार्किंग?",
+    metaTitle: "MP Police SI Written Exam 2026: क्या 600 अंकों की लिखित परीक्षा में लागू होगा माइनस मार्किंग? — सम्पूर्ण परीक्षा पैटर्न, सिलेबस व रणनीति",
+    metaDescription: "MP Police SI & Subedar Written Exam 2026: 600 अंकों का नया परीक्षा पैटर्न, 1/3 माइनस मार्किंग नियम, विषय-वार अंक विभाजन, 4-चरण चयन प्रक्रिया, लाइव स्कोर कैलकुलेटर एवं एमपीईएसबी (MPESB) आधिकारिक गाइड।",
+    category: "Government Jobs",
+    categorySlug: "government-jobs",
+    categoryUrl: "government-jobs.html",
+    publishedDate: "21 August 2026",
+    publishedIso: "2026-08-21T00:00:00+05:30",
+    modifiedDate: "21 August 2026",
+    modifiedIso: "2026-08-21T00:00:00+05:30",
+    image: "https://i.ibb.co/tM5fFDVw/54e9a764-9fce-41ce-bbc2-9092d2f483f3-1.webp",
+    canonicalImage: "https://i.ibb.co/tM5fFDVw/54e9a764-9fce-41ce-bbc2-9092d2f483f3-1.webp",
+    imageAlt: "MP Police SI Written Exam 2026 Pattern & Negative Marking Rule",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "14 min read",
+    keywords: ["mp police si", "written exam 2026", "negative marking", "mpesb si syllabus", "600 marks pattern", "sub inspector", "subedar", "माइनस मार्किंग", "एमपी पुलिस"],
+    snippet: "MP Police SI व सूबेदार भर्ती 2026: 600 अंकों का नया परीक्षा पैटर्न, 1/3 (0.33) माइनस मार्किंग नियम, विषय-वार अंक विभाजन, 4-चरणीय चयन प्रक्रिया एवं लाइव मार्क्स कैलकुलेटर।"
+  },
+  {
+    slug: "pmay-2-0-track-application-status",
+    url: "pmay-2-0-track-application-status.html",
+    canonicalUrl: "https://www.govindianews.com/pmay-2-0-track-application-status.html",
+    title: "फॉर्म भरने के बाद अटक गई है किश्त? तुरंत ऐसे करें Track : PMAY 2.0 Track Application — GovIndiaNews",
+    h1: "फॉर्म भरने के बाद अटक गई है किश्त? तुरंत ऐसे करें Track : PMAY 2.0 Track Application",
+    metaTitle: "फॉर्म भरने के बाद अटक गई है किश्त? तुरंत ऐसे करें Track : PMAY 2.0 Track Application — GovIndiaNews",
+    metaDescription: "PMAY 2.0 Track Application Guide: फॉर्म भरने के बाद प्रधानमंत्री आवास योजना (ग्रामीण एवं शहरी) की रुकी या अटकी हुई किश्त कैसे ट्रैक करें? PMAYMIS, Awaassoft, PFMS और आधार-DBT स्टेटस चेक करने का आसान तरीका हिंदी में पढ़ें।",
+    category: "Government Schemes",
+    categorySlug: "government-schemes",
+    categoryUrl: "government-schemes.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/67BpyN1V/13-1.webp",
+    canonicalImage: "https://i.ibb.co/67BpyN1V/13-1.webp",
+    imageAlt: "PMAY 2.0 Track Application Status Online Portal Guide",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "11 min read",
+    keywords: ["pmay", "track", "application", "status", "किश्त", "आवास", "अटक", "2.0", "awaassoft", "pmaymis", "pfms", "dbt", "bhuvan", "geotag"],
+    snippet: "PMAYMIS, Awaassoft और PFMS पोर्टल से अटकी हुई किश्त ऑनलाइन ट्रैक करें। आधार-DBT लिंक, Bhuvan App Geo-tagging और CPGRAMS शिकायत दर्ज कराने का पूरा तरीका।"
+  },
+  {
+    slug: "cpgrams-pension-awas-installment-complaint",
+    url: "cpgrams-pension-awas-installment-complaint.html",
+    canonicalUrl: "https://www.govindianews.com/cpgrams-pension-awas-installment-complaint.html",
+    title: "CPGRAMS पोर्टल पर किश्त रुकने की ऑनलाइन शिकायत कैसे दर्ज करें? — GovIndiaNews",
+    h1: "CPGRAMS पोर्टल पर किश्त रुकने की ऑनलाइन शिकायत कैसे दर्ज करें?",
+    metaTitle: "CPGRAMS पोर्टल पर किश्त रुकने की ऑनलाइन शिकायत कैसे दर्ज करें? — GovIndiaNews",
+    metaDescription: "CPGRAMS Grievance Portal Guide: आवास योजना (PMAY), किसान सम्मान निधि, पेंशन या छात्रवृत्ति की किश्त अटकने पर pgportal.gov.in पर ऑनलाइन शिकायत दर्ज कराने की स्टेप-बाय-स्टेप प्रक्रिया।",
+    category: "Government Schemes",
+    categorySlug: "government-schemes",
+    categoryUrl: "government-schemes.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/Ps3sKcRt/74bd4f5a-a82a-4ed0-8c58-6918e9c9df07.png",
+    canonicalImage: "https://i.ibb.co/Ps3sKcRt/74bd4f5a-a82a-4ed0-8c58-6918e9c9df07.png",
+    imageAlt: "CPGRAMS Portal Online Grievance Redressal Step-by-Step Guide",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "10 min read",
+    keywords: ["cpgrams", "pgportal", "complaint", "grievance", "किश्त", "शिकायत", "pgportal gov in", "pension", "awas", "pmay"],
+    snippet: "आवास योजना, पेंशन या छात्रवृत्ति की किश्त अटकने पर pgportal.gov.in पर ऑनलाइन शिकायत दर्ज कराने, ट्रैकिंग करने और 30 दिनों में समाधान प्राप्त करने की संपूर्ण गाइड।"
+  },
+  {
+    slug: "pmay-gramin-urban-beneficiary-list-2026",
+    url: "pmay-gramin-urban-beneficiary-list-2026.html",
+    canonicalUrl: "https://www.govindianews.com/pmay-gramin-urban-beneficiary-list-2026.html",
+    title: "PMAY Gramin & Urban Beneficiary List Status Check 2026 — GovIndiaNews",
+    h1: "PMAY Gramin & Urban Beneficiary List Status Check 2026",
+    metaTitle: "PMAY Gramin & Urban Beneficiary List Status Check 2026 — GovIndiaNews",
+    metaDescription: "PMAY Beneficiary List 2026: Awaassoft (pmayg.nic.in) एवं PMAYMIS (pmaymis.gov.in) पर प्रधानमंत्री आवास योजना 2.0 ग्रामीण व शहरी नई ग्राम पंचायत वार सूची डाउनलोड करने और अपना नाम चेक करने की पूरी गाइड।",
+    category: "Government Schemes",
+    categorySlug: "government-schemes",
+    categoryUrl: "government-schemes.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/mCsVJ8qg/90fdfd03-8eec-4812-9d05-3ca8f3c5521a.png",
+    canonicalImage: "https://i.ibb.co/mCsVJ8qg/90fdfd03-8eec-4812-9d05-3ca8f3c5521a.png",
+    imageAlt: "PMAY Gramin and Urban Beneficiary List Status Check 2026 Banner",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "11 min read",
+    keywords: ["pmay", "beneficiary", "list", "status", "2026", "gramin", "urban", "awaassoft", "pmaymis", "सूची", "लाभार्थी"],
+    snippet: "Awaassoft (pmayg.nic.in) एवं PMAYMIS (pmaymis.gov.in) पोर्टल पर प्रधानमंत्री आवास योजना 2.0 (ग्रामीण व शहरी) की वर्ष 2026 की नई स्वीकृत सूची डाउनलोड करने और अपना नाम चेक करने की पूरी गाइड।"
+  },
+  {
+    slug: "pm-awas-yojana-2-0-2026",
+    url: "pm-awas-yojana-2-0-2026.html",
+    canonicalUrl: "https://www.govindianews.com/pm-awas-yojana-2-0-2026.html",
+    title: "PM Awas Yojana 2.0 (2026): किसे मिलेगा पक्का मकान और कैसे मिलेगी Subsidy? जानिए सब कुछ एक ही जगह — GovIndiaNews",
+    h1: "PM Awas Yojana 2.0 (2026): किसे मिलेगा पक्का मकान और कैसे मिलेगी Subsidy? जानिए सब कुछ एक ही जगह",
+    metaTitle: "PM Awas Yojana 2.0 (2026): किसे मिलेगा पक्का मकान और कैसे मिलेगी Subsidy? जानिए सब कुछ एक ही जगह — GovIndiaNews",
+    metaDescription: "PM Awas Yojana 2.0 (2026) की विस्तृत गाइड: PMAY Urban 2.0 और Gramin 2.0 की पात्रता, सब्सिडी कैलकुलेशन, आय सीमा (EWS, LIG, MIG), आवश्यक दस्तावेज और स्टेप-बाय-स्टेप ऑनलाइन आवेदन प्रक्रिया हिन्दी में पढ़ें।",
+    category: "Government Schemes",
+    categorySlug: "government-schemes",
+    categoryUrl: "government-schemes.html",
+    publishedDate: "20 August 2026",
+    publishedIso: "2026-08-20T00:00:00+05:30",
+    modifiedDate: "20 August 2026",
+    modifiedIso: "2026-08-20T00:00:00+05:30",
+    image: "https://i.ibb.co/W4b3VTmd/f0d08ace-908b-4465-a0e6-45fe4da85f82-1.webp",
+    canonicalImage: "https://i.ibb.co/W4b3VTmd/f0d08ace-908b-4465-a0e6-45fe4da85f82-1.webp",
+    imageAlt: "PM Awas Yojana 2.0 Scheme Eligibility and Subsidy Guide 2026",
+    imageWidth: 1200,
+    imageHeight: 675,
+    author: {
+      name: "Akash Singh Solanki",
+      jobTitle: "Founder & Lead Policy Analyst",
+      url: "https://www.govindianews.com/author.html",
+      email: "akashsolanki9203@gmail.com"
+    },
+    language: "hi",
+    readingTime: "13 min read",
+    keywords: ["pmay", "awas", "yojana", "subsidy", "मकान", "आवास", "2026", "pm", "scheme", "ews", "lig", "mig"],
+    snippet: "3 करोड़ नए मकानों का लक्ष्य, PMAY Urban 2.0 और Gramin 2.0 पात्रता, ₹1.80L - ₹2.67L ब्याज सब्सिडी कैलकुलेशन, आवश्यक दस्तावेज और ऑनलाइन आवेदन विधि।"
+  }
+];

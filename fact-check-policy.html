@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fact-Checking Policy — GovIndiaNews</title>
+  <meta name="description" content="Fact-checking framework, primary-source verification, and evidence standards on GovIndiaNews." />
+  <link rel="canonical" href="https://www.govindianews.com/fact-check-policy.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.min.css" />
+  <!-- Google AdSense handled safely via script.min.js -->
+</head>
+<body>
+
+  <a href="index.html" class="skip-link">Skip to main content</a>
+
+  <!-- Header - EXTREMELY MINIMAL (Rule 3 & 4) -->
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="index.html" class="site-logo-link" aria-label="GovIndiaNews Home">
+          <span class="logo-text">GovIndia<span class="logo-accent">News</span></span>
+        </a>
+      </div>
+      <div class="header-right">
+        <button class="icon-btn" id="search-toggle-btn" aria-label="Search site">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="icon-btn" id="nav-toggle-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-drawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Non-Governmental Notice Banner -->
+  <!-- Non-Governmental Notice Banner -->
+  <div class="notice-banner">
+    <strong>Independent Publication:</strong> GovIndiaNews is a private portal. We are not affiliated with or endorsed by any government entity. Always verify official notifications at government sources.
+  </div>
+
+  <!-- Navigation Drawer (Panel) -->
+  <!-- Navigation Drawer (Panel) -->
+  <div class="nav-drawer-backdrop" id="nav-backdrop"></div>
+  <aside class="nav-drawer" id="nav-drawer" aria-label="Main Navigation">
+    <div class="drawer-header">
+      <span class="drawer-brand">GovIndiaNews</span>
+      <button class="icon-btn" id="nav-close-btn" aria-label="Close navigation menu">✕</button>
+    </div>
+    <div class="drawer-body">
+      <p class="drawer-tagline">Government Schemes · Government Jobs · Global Finance — Explained Simply</p>
+      
+      <div class="drawer-nav-section-title">Primary Categories</div>
+      <ul class="drawer-menu-list">
+        <li><a href="government-schemes.html" class="drawer-nav-link">Government Schemes</a></li>
+        <li><a href="government-jobs.html" class="drawer-nav-link">Government Jobs</a></li>
+        <li><a href="global-finance.html" class="drawer-nav-link">Global Finance</a></li>
+      </ul>
+
+      <div class="drawer-nav-section-title">About &amp; Editorial</div>
+      <ul class="drawer-legal-list">
+        <li><a href="about.html" class="drawer-legal-link">About GovIndiaNews</a></li>
+        <li><a href="editorial-policy.html" class="drawer-legal-link">Editorial Policy</a></li>
+        <li><a href="fact-check-policy.html" class="drawer-legal-link">Fact-Check Policy</a></li>
+        <li><a href="corrections-policy.html" class="drawer-legal-link">Corrections Policy</a></li>
+        <li><a href="ethics-policy.html" class="drawer-legal-link">Ethics Policy</a></li>
+        <li><a href="ownership-funding.html" class="drawer-legal-link">Ownership &amp; Funding</a></li>
+        <li><a href="cookie-policy.html" class="drawer-legal-link">Cookie Policy</a></li>
+        <li><a href="grievance.html" class="drawer-legal-link">Grievance Redressal</a></li>
+        <li><a href="author.html" class="drawer-legal-link">Author / Editorial Team</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Search Modal Overlay -->
+  <!-- Search Modal Overlay -->
+  <div class="search-modal-backdrop" id="search-backdrop">
+    <div class="search-modal-card" role="dialog" aria-modal="true" aria-label="Site Search">
+      <div class="search-input-wrapper">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" class="search-modal-input" id="search-input" placeholder="Search topics, schemes, jobs, or finance..." aria-label="Search input" />
+        <button class="icon-btn" id="search-close-btn" aria-label="Close search">✕</button>
+      </div>
+      <div class="search-results-area" id="search-results">
+        <p class="search-empty-state">No articles available to search.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <main class="main-wrapper" id="main-content">
+    <article class="legal-article">
+      <span class="page-category-tag">TRUST &amp; STANDARDS</span>
+      <h1 class="page-title">Fact-Checking Policy</h1>
+      <p style="font-size: 0.875rem; color: var(--text-subtle); margin-bottom: 1.5rem;">Effective Date: August 20, 2026 • Last Updated: August 20, 2026</p>
+
+      <nav class="toc-box">
+        <div class="toc-title">Table of Contents</div>
+        <ul class="toc-list">
+          <li><a href="#fc-1">1. Commitment to Factual Precision</a></li>
+          <li><a href="#fc-2">2. Core Verification Methodology</a></li>
+          <li><a href="#fc-3">3. Primary Document Hierarchy</a></li>
+          <li><a href="#fc-4">4. Verification of Government Recruitment &amp; Schemes</a></li>
+          <li><a href="#fc-5">5. Verification of Global Financial &amp; Economic Reports</a></li>
+          <li><a href="#fc-6">6. Handling Unverified Rumors &amp; Misinformation</a></li>
+          <li><a href="#fc-7">7. Transparent Correction &amp; Update Protocol</a></li>
+        </ul>
+      </nav>
+
+      <h2 id="fc-1">1. Commitment to Factual Precision</h2>
+      <p>Accuracy is the foundational cornerstone of GovIndiaNews. Because our coverage directly impacts citizens seeking welfare scheme benefits, job applicants reviewing recruitment rules, and readers assessing economic trends, we enforce rigorous fact-checking protocols before publishing any article.</p>
+
+      <h2 id="fc-2">2. Core Verification Methodology</h2>
+      <p>Every factual assertion, statistic, deadline, and eligibility criteria published on GovIndiaNews must be substantiated by primary documentation. Our researchers and editors adhere to a strict verification checklist:</p>
+      <ul>
+        <li><strong>Cross-Referencing:</strong> Claims made in press releases must be cross-referenced against official gazette PDFs or ministry notifications.</li>
+        <li><strong>Data Point Consistency:</strong> Numbers such as vacancy counts, age upper limits, pay band scale numbers, and financial outlay figures are verified digit-by-digit.</li>
+        <li><strong>Temporal Validity:</strong> Dates are checked to ensure reports differentiate between past policies, current active windows, and proposed future amendments.</li>
+      </ul>
+
+      <h2 id="fc-3">3. Primary Document Hierarchy</h2>
+      <p>GovIndiaNews establishes a clear hierarchy of acceptable source materials:</p>
+      <ol>
+        <li><strong>Level 1 (Primary Gazette &amp; Official Portals):</strong> Official Gazette of India, State Government Extraordinaries, UPSC/SSC Official Notifications, RBI Bulletins.</li>
+        <li><strong>Level 2 (Institutional Releases):</strong> Press Information Bureau (PIB) briefings, World Bank/IMF Official Reports, Central Bank Press Communiqués.</li>
+        <li><strong>Level 3 (Secondary Sources):</strong> Secondary news reports are used strictly for lead identification and are NEVER published until independently verified against Level 1 or Level 2 documents.</li>
+      </ol>
+
+      <h2 id="fc-4">4. Verification of Government Recruitment &amp; Schemes</h2>
+      <p>Public sector recruitment announcements and scheme guides are especially prone to online misinformation and fake circulars. GovIndiaNews verifies:</p>
+      <ul>
+        <li>Official notification advertisement numbers (e.g., Advt No. XX/2026)</li>
+        <li>Authentic domain URLs (.gov.in / .nic.in / .ac.in) for online application portals</li>
+        <li>Exact opening and closing dates for online registration and fee payment</li>
+      </ul>
+
+      <h2 id="fc-5">5. Verification of Global Financial &amp; Economic Reports</h2>
+      <p>Financial articles detailing macroeconomic policy, interest rate benchmark adjustments, and inflation data are verified against official releases from issuing central banks (e.g., Reserve Bank of India, US Federal Reserve, European Central Bank) or international multilateral institutions.</p>
+
+      <h2 id="fc-6">6. Handling Unverified Rumors &amp; Misinformation</h2>
+      <p>GovIndiaNews does not publish unverified social media leaks, unofficial exam date predictions, or unconfirmed policy rumors. If viral misinformation circulates regarding a major recruitment or scheme, our editorial team publishes factual clarification pieces pointing directly to official government denials or PIB Fact Check releases.</p>
+
+      <h2 id="fc-7">7. Transparent Correction &amp; Update Protocol</h2>
+      <p>If an error or outdated figure is discovered after publication, our editorial desk acts immediately to correct the record transparently in accordance with our <a href="corrections-policy.html">Corrections Policy</a>.</p>
+
+      <div class="info-box">
+        <strong>Report a Factual Discrepancy:</strong><br />
+        If you spot an inaccuracy in any of our reports, please notify our fact-checking team at factcheck@govindianews.com or submit a note via <a href="contact.html">contact.html</a>.
+      </div>
+    </article>
+    </main>
+
+  <!-- Site Footer -->
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-brand-title">GovIndiaNews</h2>
+          <p class="footer-brand-tagline">Government Schemes · Government Jobs · Global Finance — Explained Simply</p>
+          <p style="font-size: 0.8125rem; color: #94A3B8;">An independent digital news portal dedicated to clear, structured reporting on public policy and international economics.</p>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Primary Categories</h3>
+          <ul class="footer-links">
+            <li><a href="government-schemes.html">Government Schemes</a></li>
+            <li><a href="government-jobs.html">Government Jobs</a></li>
+            <li><a href="global-finance.html">Global Finance</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Trust &amp; Standards</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="editorial-policy.html">Editorial Policy</a></li>
+            <li><a href="fact-check-policy.html">Fact-Check Policy</a></li>
+            <li><a href="corrections-policy.html">Corrections Policy</a></li>
+            <li><a href="ethics-policy.html">Ethics Policy</a></li>
+            <li><a href="ownership-funding.html">Ownership &amp; Funding</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Legal &amp; Contact</h3>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="grievance.html">Grievance Redressal</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="author.html">Editorial Team</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MANDATORY WHITE DISCLAIMER (Rule 28) -->
+      <p class="footer-disclaimer">Disclaimer: GovIndiaNews is a privately run news and information portal. Content is provided for general informational purposes and is compiled from publicly available government notifications, press releases and official websites. We are not a government entity and cannot process applications, payments, or grievances on behalf of any government body. Always verify scheme and recruitment details on the concerned department's official website before applying or making any payment.</p>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 GovIndiaNews. All rights reserved.</div>
+        <div>Independent News Publication • Static Architecture</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.min.js" defer></script>
+</body>
+</html>

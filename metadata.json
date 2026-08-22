@@ -1,0 +1,8 @@
+{
+  "name": "GovIndiaNews",
+  "description": "Independent publication providing simplified explanations of Indian government schemes, public sector jobs, and global financial trends.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

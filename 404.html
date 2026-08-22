@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Page Not Found — GovIndiaNews</title>
+  <meta name="description" content="The requested page or government notification URL could not be found on GovIndiaNews. Use our search bar or explore active government job updates." />
+  
+  <!-- CRITICAL ADSENSE & CRAWLER CONTROL DIRECTIVES -->
+  <!-- 1. Prevents search engines from indexing error pages in Search Console -->
+  <meta name="robots" content="noindex, follow, noarchive" />
+  <meta name="googlebot" content="noindex, follow, noarchive" />
+  <!-- 2. Explicitly forbids AdSense monetization bot from scanning or serving ads on 404 error pages -->
+  <meta name="Mediapartners-Google" content="noindex, nofollow" />
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="styles.min.css" />
+
+  <!-- NOTE: Google AdSense script (adsbygoogle.js) is STRICTLY EXCLUDED on this 404 page -->
+  <!-- Serving ads on 404/error pages violates Google AdSense Program Policies (Low Value Content / Site Behavior) -->
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Global Header -->
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="header-left">
+        <a href="index.html" class="site-logo-link" aria-label="GovIndiaNews Home">
+          <span class="logo-text">GovIndia<span class="logo-accent">News</span></span>
+        </a>
+      </div>
+      <div class="header-right">
+        <button class="icon-btn" id="search-toggle-btn" aria-label="Search site">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn" id="theme-toggle-btn" aria-label="Toggle dark mode">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="icon-btn" id="nav-toggle-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-drawer">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Non-Governmental Notice Banner -->
+  <!-- Non-Governmental Notice Banner -->
+  <div class="notice-banner">
+    <strong>Independent Publication:</strong> GovIndiaNews is a private portal. We are not affiliated with or endorsed by any government entity. Always verify official notifications at government sources.
+  </div>
+
+  <!-- Navigation Drawer (Panel) -->
+  <!-- Navigation Drawer (Panel) -->
+  <div class="nav-drawer-backdrop" id="nav-backdrop"></div>
+  <aside class="nav-drawer" id="nav-drawer" aria-label="Main Navigation">
+    <div class="drawer-header">
+      <span class="drawer-brand">GovIndiaNews</span>
+      <button class="icon-btn" id="nav-close-btn" aria-label="Close navigation menu">✕</button>
+    </div>
+    <div class="drawer-body">
+      <p class="drawer-tagline">Government Schemes · Government Jobs · Global Finance — Explained Simply</p>
+      
+      <div class="drawer-nav-section-title">Primary Categories</div>
+      <ul class="drawer-menu-list">
+        <li><a href="government-schemes.html" class="drawer-nav-link">Government Schemes</a></li>
+        <li><a href="government-jobs.html" class="drawer-nav-link">Government Jobs</a></li>
+        <li><a href="global-finance.html" class="drawer-nav-link">Global Finance</a></li>
+      </ul>
+
+      <div class="drawer-nav-section-title">About &amp; Editorial</div>
+      <ul class="drawer-legal-list">
+        <li><a href="about.html" class="drawer-legal-link">About GovIndiaNews</a></li>
+        <li><a href="editorial-policy.html" class="drawer-legal-link">Editorial Policy</a></li>
+        <li><a href="fact-check-policy.html" class="drawer-legal-link">Fact-Check Policy</a></li>
+        <li><a href="corrections-policy.html" class="drawer-legal-link">Corrections Policy</a></li>
+        <li><a href="ethics-policy.html" class="drawer-legal-link">Ethics Policy</a></li>
+        <li><a href="ownership-funding.html" class="drawer-legal-link">Ownership &amp; Funding</a></li>
+        <li><a href="cookie-policy.html" class="drawer-legal-link">Cookie Policy</a></li>
+        <li><a href="grievance.html" class="drawer-legal-link">Grievance Redressal</a></li>
+        <li><a href="author.html" class="drawer-legal-link">Author / Editorial Team</a></li>
+      </ul>
+    </div>
+  </aside>
+
+  <!-- Interactive Search Modal Overlay -->
+  <div class="search-backdrop" id="search-backdrop">
+    <div class="search-modal">
+      <div class="search-modal-header">
+        <div class="search-input-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="20" height="20" style="color: var(--text-subtle);"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" id="search-input" placeholder="Type to search government jobs, schemes, calculators..." aria-label="Search site articles" />
+        </div>
+        <button class="icon-btn" id="search-close-btn" aria-label="Close search overlay">✕</button>
+      </div>
+      <div class="search-modal-body" id="search-results">
+        <!-- Search Results rendered by script.min.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Main 404 Body -->
+  <main id="main-content" class="error-page-wrapper">
+    
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom: 1.5rem;">
+      <a href="index.html">Home</a> &rsaquo;
+      <span>404 - Page Not Found</span>
+    </nav>
+
+    <div class="error-card">
+      <div class="error-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="16" height="16"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        HTTP 404 • Page or Link Expired
+      </div>
+
+      <div class="error-code">404</div>
+
+      <h1 class="error-title">Oops! This Link or Official Notification Has Moved</h1>
+
+      <p class="error-desc">
+        The recruitment notification, exam result link, admit card update, or government scheme article you are looking for may have been updated, relocated, or expired.
+      </p>
+
+      <!-- Prominent On-Page Search Bar -->
+      <div class="error-search-container">
+        <form class="error-search-form" action="#" method="get" onsubmit="event.preventDefault(); document.getElementById('search-toggle-btn').click();">
+          <input type="text" id="error-onpage-search" class="error-search-input" placeholder="Search recruitment news, admit cards, exam status..." aria-label="Search recruitment news" />
+          <button type="submit" class="error-search-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" width="18" height="18"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            Search Portal
+          </button>
+        </form>
+      </div>
+
+      <!-- Quick Action Buttons to High-Traffic Zones -->
+      <div class="error-actions-title">
+        <span>Quick Access to Active Departments &amp; Guides</span>
+      </div>
+
+      <div class="error-actions-grid">
+        <a href="government-jobs.html" class="error-action-card">
+          <span class="error-action-icon">💼</span>
+          <span class="error-action-label">Latest Job Notifications</span>
+          <span class="error-action-subtext">Active recruitment notices, MP Police, Army Agniveer &amp; exam patterns.</span>
+        </a>
+
+        <a href="government-schemes.html" class="error-action-card">
+          <span class="error-action-icon">📜</span>
+          <span class="error-action-label">Government Schemes</span>
+          <span class="error-action-subtext">PM Awas 2.0, Startup Seed Fund, PMAY tracking &amp; CPGRAMS guides.</span>
+        </a>
+
+        <a href="global-finance.html" class="error-action-card">
+          <span class="error-action-icon">📈</span>
+          <span class="error-action-label">Global Finance</span>
+          <span class="error-action-subtext">NRI home loans, FEMA rules, US stock investments &amp; cross-border tax.</span>
+        </a>
+
+        <a href="army-running-time-calculator-1600m-2026.html" class="error-action-card">
+          <span class="error-action-icon">🧮</span>
+          <span class="error-action-label">1600m Running Calculator</span>
+          <span class="error-action-subtext">Agniveer Army PFT score, beam marks, 400m pacing &amp; group calculator.</span>
+        </a>
+
+        <a href="mp-police-si-written-exam-2026.html" class="error-action-card">
+          <span class="error-action-icon">👮</span>
+          <span class="error-action-label">MP Police SI Exam 2026</span>
+          <span class="error-action-subtext">600 marks pattern, negative marking rules &amp; live score calculator.</span>
+        </a>
+
+        <a href="index.html" class="error-action-card">
+          <span class="error-action-icon">🏠</span>
+          <span class="error-action-label">Return to Homepage</span>
+          <span class="error-action-subtext">Browse our complete daily publishing catalog &amp; verified news desk.</span>
+        </a>
+      </div>
+
+      <!-- Information & Verification Notice -->
+      <div class="error-notice-box">
+        <strong>💡 Looking for an Official Gazette or Ministry Link?</strong>
+        <p style="margin-top: 0.35rem; margin-bottom: 0;">GovIndiaNews updates notification URLs whenever ministries release new corrigendums or gazette amendments. If you followed a bookmark or external link, please use our search bar above or check our <a href="contact.html" style="font-weight: 600; text-decoration: underline;">Editorial Desk Contact Page</a> to report a broken link.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Site Footer -->
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-brand-title">GovIndiaNews</h2>
+          <p class="footer-brand-tagline">Government Schemes · Government Jobs · Global Finance — Explained Simply</p>
+          <p style="font-size: 0.8125rem; color: #94A3B8;">An independent digital news portal dedicated to clear, structured reporting on public policy and international economics.</p>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Primary Categories</h3>
+          <ul class="footer-links">
+            <li><a href="government-schemes.html">Government Schemes</a></li>
+            <li><a href="government-jobs.html">Government Jobs</a></li>
+            <li><a href="global-finance.html">Global Finance</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Trust &amp; Standards</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="editorial-policy.html">Editorial Policy</a></li>
+            <li><a href="fact-check-policy.html">Fact-Check Policy</a></li>
+            <li><a href="corrections-policy.html">Corrections Policy</a></li>
+            <li><a href="ethics-policy.html">Ethics Policy</a></li>
+            <li><a href="ownership-funding.html">Ownership &amp; Funding</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Legal &amp; Contact</h3>
+          <ul class="footer-links">
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+            <li><a href="grievance.html">Grievance Redressal</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="author.html">Editorial Team</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- MANDATORY WHITE DISCLAIMER (Rule 28) -->
+      <p class="footer-disclaimer">Disclaimer: GovIndiaNews is a privately run news and information portal. Content is provided for general informational purposes and is compiled from publicly available government notifications, press releases and official websites. We are not a government entity and cannot process applications, payments, or grievances on behalf of any government body. Always verify scheme and recruitment details on the concerned department's official website before applying or making any payment.</p>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 GovIndiaNews. All rights reserved.</div>
+        <div>Independent News Publication • Static Architecture</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.min.js" defer></script>
+  <script>
+    // Enable quick focus transfer from on-page 404 search box to global client-side search engine
+    document.addEventListener('DOMContentLoaded', function() {
+      var onPageSearch = document.getElementById('error-onpage-search');
+      if (onPageSearch) {
+        onPageSearch.addEventListener('focus', function() {
+          var globalSearchBtn = document.getElementById('search-toggle-btn');
+          if (globalSearchBtn) globalSearchBtn.click();
+        });
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# GovIndiaNews Robots.txt Specification
+User-agent: *
+Allow: /
+
+# Note: Do NOT add Disallow: /404.html if you want Googlebot to fetch the page,
+# receive the native 404 HTTP status code, and read the <meta name="robots" content="noindex"> tag.
+# Disallowing /404.html in robots.txt prevents crawlers from reaching the page to detect the noindex tag and status code.
+
+# AdSense Crawler Directives
+User-agent: Mediapartners-Google
+Allow: /
+
+Sitemap: https://www.govindianews.com/sitemap.xml
+
