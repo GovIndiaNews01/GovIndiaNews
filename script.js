@@ -534,14 +534,17 @@
         if (!scrollToTopBtn) return;
 
         function toggleScrollBtn() {
-          if (window.scrollY > 100) {
+          const scrollY = window.pageYOffset || document.documentElement.scrollTop || window.scrollY || 0;
+          if (scrollY > 100) {
             scrollToTopBtn.classList.add('visible');
           } else {
             scrollToTopBtn.classList.remove('visible');
           }
         }
 
-        toggleScrollBtn();
+        requestAnimationFrame(() => {
+          toggleScrollBtn();
+        });
 
         let isTicking = false;
         window.addEventListener('scroll', () => {

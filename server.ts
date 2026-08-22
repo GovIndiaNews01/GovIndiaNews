@@ -79,7 +79,25 @@ async function startServer() {
 
   // --- 2. VITE & STATIC FILE SERVING ---
   const staticOptions = {
-    extensions: ['html', 'htm']
+    extensions: ['html', 'htm'],
+    maxAge: '1y',
+    setHeaders: (res: Response, filePath: string) => {
+      if (
+        filePath.endsWith('.css') ||
+        filePath.endsWith('.js') ||
+        filePath.endsWith('.svg') ||
+        filePath.endsWith('.webp') ||
+        filePath.endsWith('.png') ||
+        filePath.endsWith('.jpg') ||
+        filePath.endsWith('.jpeg') ||
+        filePath.endsWith('.ico') ||
+        filePath.endsWith('.woff2')
+      ) {
+        res.setHeader('Cache-Control', 'public, max-age=31536000, immutable');
+      } else if (filePath.endsWith('.html') || filePath.endsWith('.htm')) {
+        res.setHeader('Cache-Control', 'public, max-age=0, must-revalidate');
+      }
+    }
   };
 
   if (process.env.NODE_ENV !== 'production') {

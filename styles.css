@@ -6,19 +6,19 @@
   --navy-900: #0E3456;
   --navy-800: #123A5C;
   --blue-600: #1B5C94;
-  --amber-600: #C97A2B;
-  --amber-700: #A8601C;
+  --amber-600: #9A530C;
+  --amber-700: #7C2D12;
   --paper-50: #F6F4EE;
   --paper-100: #EEEAE0;
   --paper-200: #E2DDD0;
   --ink-900: #1A1D21;
   --ink-800: #2C3036;
   --ink-700: #3D4247;
-  --ink-500: #565F6B;
+  --ink-500: #3E4651;
   --line: #DCD6C8;
   --line-strong: #C4BCAC;
-  --green-700: #1E7A4C;
-  --red-700: #A83226;
+  --green-700: #047857;
+  --red-700: #991B1B;
   
   /* Active Theme Semantic Tokens */
   --bg-main: var(--paper-50);
@@ -244,7 +244,12 @@ button {
 }
 
 .notice-banner strong {
-  color: var(--amber-600);
+  color: var(--navy-950);
+  font-weight: 700;
+}
+
+[data-theme="dark"] .notice-banner strong {
+  color: #38BDF8;
 }
 
 /* Main Layout Container */
@@ -1256,13 +1261,9 @@ details.toc-box[open] summary.toc-title .toc-chevron {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--amber-600) !important;
+  color: #F59E0B !important;
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-[data-theme="dark"] .footer-col-title, [data-theme="dark"] .footer-heading {
-  color: #F59E0B !important;
 }
 
 .footer-links, .footer-links-list {
@@ -1527,7 +1528,7 @@ details.toc-box[open] summary.toc-title .toc-chevron {
 
 .status-badge-passed {
   display: inline-block;
-  background-color: #10B981;
+  background-color: #047857;
   color: #FFFFFF;
   font-size: 0.75rem;
   font-weight: 800;
